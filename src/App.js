@@ -1,9 +1,14 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import Nav from './Nav';
 
 const App = () => {
   return (
-    <h1>This is my site</h1>
+    <Router>
+      <div>
+      <Route path='/' component={ Nav } />
+      </div>
+    </Router>
   )
 }
 
