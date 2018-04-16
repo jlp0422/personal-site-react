@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Button from 'material-ui/Button';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
-    <div>
+    <div className="margin-default">
+      <Helmet><title>Home | Jeremy Philipson</title></Helmet>
       <h2>Home page info will go here</h2>
     </div>
   )

@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet'
 
 const About = () => {
   return (
     <div className="margin-default">
-      <p>I'm 25 years old, currently enrolled in a programming bootcamp through Fullstack Academy. I enjoy cooking, watching sports, playing trumpet, and working out.</p>
+      <Helmet><title>About | Jeremy Philipson</title></Helmet>
+
+      <h2>About Me</h2>
+      <p>I'm 26 years old, currently enrolled in a programming bootcamp through Fullstack Academy. I enjoy cooking, watching sports, playing trumpet, and working out.</p>
       <p className="font-weight-bold">Shoot me an email, slide into my DMs, or send a raven:</p>
       <div className="flex flex-column">
         <div className="flex contact-item">
