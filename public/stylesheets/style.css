@@ -1,0 +1,55 @@
+/* GLOBAL DISPLAY */
+.margin-default {
+  margin: 10px 0px 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around
+}
+
+/* EXPERIENCE PAGE */
+.exp-card-container {
+  background-color: aqua
+}
+
+.exp-card {
+  background-color: #eee;
+  margin: 10px 1%;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 48%;
+  text-align: center;
+}
+
+/* ABOUT PAGE */
+.contact-item {
+  margin: 7px 0px;
+}
+
+.contact-image-wrapper {
+  width: 35px;
+  height: 35px;
+}
+
+.contact-gmail-img {
+  width: 24px;
+  height: 18px;
+}
+
+.contact-twitter-img {
+  width: 28px;
+  height: 22px;
+}
+
+.contact-apt-img {
+  width: 24px;
+  height: 24px;
+}
