@@ -25,7 +25,10 @@ a:hover {
   padding-top: 1rem;
 }
 
-.d-inline-block {
+.nav-jp-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
 }
 
 .nav-page-link {
@@ -48,23 +51,9 @@ a:hover {
   border-bottom: 2px solid #333;
 }
 
-/* EXPERIENCE PAGE */
-.exp-card-container {
-  background-color: aqua
-}
-
-.exp-card {
-  background-color: #eee;
-  margin: 10px 1%;
-  padding: 10px;
-  border-radius: 5px;
-  min-width: 48%;
-  text-align: center;
-}
-
 /* ABOUT PAGE */
 .contact-item {
-  margin: 7px 0px;
+  margin: 5px 0px;
 }
 
 .contact-image-wrapper {
@@ -85,4 +74,19 @@ a:hover {
 .contact-apt-img {
   width: 24px;
   height: 24px;
+}
+
+/* EXPERIENCE PAGE */
+.exp-card-container {
+  background-color: aqua;
+  flex-wrap: wrap;
+}
+
+.exp-card {
+  background-color: #eee;
+  margin: 10px 3%;
+  padding: 20px 10px;;
+  border-radius: 5px;
+  text-align: left;
+  align-items: center;
 }

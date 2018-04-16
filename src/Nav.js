@@ -9,7 +9,7 @@ const Nav = () => {
       <nav className="navbar sticky-top navbar-light bg-light">
         <div className="container">
           <Link className="navbar-brand" to='/home'>
-            <img style={{width: '30px', marginTop: '-15px' }} src="./vendor/images/logo-black-no-bkg.png" className="d-inline-block align-middle" />
+            <img src="./vendor/images/logo-black-no-bkg.png" className="d-inline-block align-middle nav-jp-logo" />
           </Link>
           <ul className="nav">
             {
