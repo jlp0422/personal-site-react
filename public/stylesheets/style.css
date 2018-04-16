@@ -15,6 +15,39 @@
   justify-content: space-around
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+/* NAV STYLING */
+.navbar {
+  padding-bottom: 0px;
+  padding-top: 1rem;
+}
+
+.d-inline-block {
+}
+
+.nav-page-link {
+  margin: 0px 7px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-page-link a {
+  color: black;
+}
+
+.nav-page-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ccc
+}
+
+.nav-page-selected {
+  margin: 0px 7px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+}
+
 /* EXPERIENCE PAGE */
 .exp-card-container {
   background-color: aqua
